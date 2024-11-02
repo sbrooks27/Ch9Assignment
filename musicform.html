@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music Form</title>
+<meta charset="utf-8">
+</head>
+<h1>Music Form</h1>
+<body>
+
+<fieldset>
+<legend>User Information</legend>
+<label>Name: <input type="text" name="name" id="name"></label><br></br>
+<label>Email: <input type="text" name="email" id="email"></label><br></br>
+</fieldset>
+<br><br>
+
+<fieldset>
+<legend>What role does music play in your life?</legend>
+<textarea name="comments" id="comments" cols="60" rows="3"> </textarea> <br><br>
+</fieldset>
+<br><br>
+
+<fieldset>
+<legend>Favorite Kind of Music</legend>
+<input type="radio" name="music" id="type" value="pop"> Pop<br>
+<input type="radio" name="music" id="type" value="classical"> Classical<br>
+<input type="radio" name="music" id="type" value="rock"> Rock<br>
+<input type="radio" name="music" id="type" value="folk"> Folk<br>
+<input type="radio" name="music" id="type" value="rap"> Rap<br>
+<input type="radio" name="music" id="type" value="country"> Country<br>
+<input type="radio" name="music" id="type" value="other"> Other<br><br>
+</fieldset>
+<br><br>
+        
+<fieldset>
+<select size="1" name="location" id="location">
+  <option>Select Your Favorite Place to Listen to Music</option>
+  <option value="athome">At Home</option>
+  <option value="inthecar">In the Car</option>
+  <option value="anywhere">Anywhere</option>
+</select> 
+</fieldset>
+<br></br>
+
+<fieldset>
+<label for="myDate">When did you last listen to music?</label>
+<input type="date" name="myDate" id="myDate"><br><br>
+</fieldset>
+<br><br>
+
+<input type="submit" value="Submit"> <input type="submit" value="Reset">
